@@ -35,3 +35,25 @@ console.log(typeof ex4)
 
 let ex5 = []
 console.log(typeof ex5)
+
+//CONVERSÕES
+
+//FLOAT => STRING
+
+let numFloat = 123.456;
+console.log(numFloat.toString())
+
+//String => Float
+
+let numString = "12.962"
+console.log(parseFloat(numString))
+
+//INT => STRING
+
+let numInt = 55
+console.log(parseInt(numInt))
+
+//STRING => INT
+
+let numString2 = "666"
+console.log(numString2.toString())
