@@ -102,3 +102,5 @@ const f = '30';
 console.log(e == f);
 console.log(e === f);
 console.log(e != f);
+
+// CONDICIONAIS
