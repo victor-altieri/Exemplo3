@@ -45,15 +45,31 @@ console.log(numFloat.toString())
 
 //String => Float
 
-let numString = "12.962"
+let numString = "12.962";
 console.log(parseFloat(numString))
 
 //INT => STRING
 
-let numInt = 55
-console.log(parseInt(numInt))
+let numInt = 55;
+console.log(numInt.toString())
 
 //STRING => INT
 
-let numString2 = "666"
-console.log(numString2.toString())
+let numString2 = "666";
+console.log(parseInt(numString2))
+
+//METODOS
+
+//METODO LENGTH - VERIFICA O TAMANHO DA STRING
+
+let frase = "O mundo da tecnologia";
+console.log(frase.length)
+
+//METODO indeof/lastIndexOf -RETORNA UM TRECHO DO SEU CÓDIGO
+
+let texto = "Programação Sustentável ão";
+console.log(texto.lastIndexOf("ão"))
+
+//METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E FINAL
+let info = "Programação de ponta";
+console.log(info.slice(14,20))
