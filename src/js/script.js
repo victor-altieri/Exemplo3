@@ -104,3 +104,61 @@ console.log(e === f);
 console.log(e != f);
 
 // CONDICIONAIS
+
+//if / else
+
+if(true){
+    console.log("é verdadeiro")
+}
+
+let nome2 = "fiap"
+if(nome2 == "fiap"){
+    console.log("nome correto")
+}
+else{
+    console.log("nome errado")
+}
+
+// IF encadeado ou aninhado
+
+let idade2 = 13;
+if(idade2 <= 14){
+    console.log("não pode entrar.")
+}
+else if(idade2 > 14 && idade2 <= 18){
+    console.log("pode entrar e curtir")
+}
+else if(idade2 > 18 && idade2 <= 50){
+    console.log("perigo, seus pais estão na balada!")
+}
+else{
+    console.log("voce deve ficar no sofá assistindo")
+}
+
+//switch case
+
+let time = "Palmeiras"
+
+switch(time){
+    case "Palmeiras":
+        console.log("Maior das Américas")
+
+    case "São Paulo":
+        console.log("tão ruim que não consegue ganhar em casa")
+
+    case "Corinthians":
+        console.log("menor time do brasil")
+    
+    default:
+        console.log("não é válido")
+}
+
+// Ternário
+
+let valor = 101
+let resultado = valor == 100 ? "Valor Certo": "Valor Errado"
+console.log(resultado)
+
+let nota = 5
+let passou = nota >= 6 ? "Passou": "Reprovou"
+console.log(passou)
