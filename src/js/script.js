@@ -187,3 +187,20 @@ do{
     w++
 } while(w<=20)
 
+// JOGO DE ADIVINHAÇÃO
+
+// declarando uma variável indefinida
+
+// let palpite;
+
+// const sorteio = Math.floor(Math.random() * 10) + 1;
+
+// do{
+//     palpite = parseInt(prompt("Escolha um número de 1 a 10"))
+// }while(palpite !== sorteio)
+
+//     alert(`Parabéns, você ganhou o jogo ${palpite}`)
+
+// FUNÇÕES
+
+
