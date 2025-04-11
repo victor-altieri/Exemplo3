@@ -162,3 +162,28 @@ console.log(resultado)
 let nota = 5
 let passou = nota >= 6 ? "Passou": "Reprovou"
 console.log(passou)
+
+// ESTRUTURAS DE REPETIÇÃO
+
+for(let i=0; i<10;i++){
+    console.log("O valor de i é", i)
+}
+
+//while
+
+let h = 0;
+
+while(h < 10){
+    console.log("O valor de h é", h)
+    h++
+}
+
+// do while
+
+let w = 0
+
+do{
+    console.log("do while", w)
+    w++
+} while(w<=20)
+
