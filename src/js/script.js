@@ -203,4 +203,7 @@ do{
 
 // FUNÇÕES
 
-
+function saudacao(){
+    console.log(`Seja Bem-Vindo ${meunome}`)
+}
+saudacao("Victor")
